@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About me - Francesco Mantovani</title>
+  <meta name="description" content="Francesco Mantovani, PhD researcher (EURECOM & Huawei Paris Research Center) working on continual learning in large language models.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <nav>
+      <a class="site-title" href="./">Francesco Mantovani</a>
+      <a href="publications.html">Publications</a>
+      <a href="cv/Francesco_Mantovani_CV.pdf">CV</a>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+      <div class="sticky">
+        <!-- To add a photo: put it at images/headshot.jpg (square works best). Until then initials are shown. -->
+        <img class="avatar" src="images/headshot.jpg" alt="Francesco Mantovani"
+             onerror="this.outerHTML='<div class=&quot;avatar avatar-fallback&quot;>FM</div>'">
+        <h3>Francesco Mantovani</h3>
+        <p class="tagline">PhD researcher in continual learning for LLMs</p>
+        <ul class="author-links">
+          <li><i class="fa-solid fa-location-dot"></i> Paris, France</li>
+          <li><i class="fa-solid fa-building-columns"></i> EURECOM &amp; Huawei Paris</li>
+          <li><a href="mailto:mantovanifranci23@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a></li>
+          <li><a href="https://github.com/Elpinzeiro"><i class="fa-brands fa-github"></i> GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/francesco-mantovani-6890bb225"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="page">
+      <h1>About me</h1>
+      <p>
+        I am a PhD researcher (CIFRE industrial PhD) at
+        <a href="https://www.eurecom.fr/">EURECOM</a> and the Huawei Paris Research Center,
+        supervised by Pietro Michiardi (EURECOM)
+        and Zied Ben Houidi (Huawei). My thesis is on <em>Scalable Update of Large Language Models
+        with Episodic Memories for Continuous Knowledge Integration</em>.
+      </p>
+      <p>
+        I work on continual learning in large language models: adding new knowledge to a model's
+        weights so that the model can use it as flexibly as knowledge learned in pretraining,
+        without damaging what it already knows. I diagnose where these updates fail by combining two
+        views: large-scale tests of frontier models on real facts and controlled fine-tuning
+        experiments on synthetic data. I try to take inspiration from how our brain solves these
+        problems, and then re-apply those principles to LLMs.
+      </p>
+      <p>
+        I am first author of an accepted NeurIPS 2026 paper on episodic binding in parametric memory,
+        and co-author of a second one on surprise and catastrophic forgetting. See my
+        <a href="publications.html">publications</a>.
+      </p>
+      <p>
+        Before my PhD, I spent three years as a data scientist at Rulex in Genoa. I hold an M.Sc. in
+        Computer Engineering (110/110 cum laude) and a B.Sc. in Computer Engineering from the
+        University of Genoa.
+      </p>
+
+      <h2>Research interests</h2>
+      <ul>
+        <li>Continual learning and knowledge injection in LLMs</li>
+        <li>Parametric and episodic memory</li>
+        <li>Catastrophic forgetting under fine-tuning (SFT, LoRA)</li>
+        <li>Mechanistic interpretability (logit lens, Jacobian lens)</li>
+        <li>Benchmark design and LLM-as-judge evaluation</li>
+      </ul>
+    </main>
+  </div>
+
+  <footer class="footer">
+    &copy; 2026 Francesco Mantovani. Layout inspired by AcademicPages.
+  </footer>
+</body>
+</html>
